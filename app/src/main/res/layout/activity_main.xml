@@ -67,4 +67,15 @@
         android:textSize="20sp">
     </Button>
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Go to link"
+        android:textSize="20sp"
+        android:visibility="invisible">
+    </com.google.android.material.button.MaterialButton>
+
 </LinearLayout>

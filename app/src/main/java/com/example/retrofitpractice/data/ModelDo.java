@@ -12,6 +12,13 @@ public class ModelDo {
     @SerializedName("price")
     private double price;
 
+    @SerializedName("link")
+    private String link;
+
+    public String getLink() {
+        return link;
+    }
+
     public int getKey() {
         return key;
     }

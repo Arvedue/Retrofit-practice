@@ -16,6 +16,11 @@ public interface DoApi {
             @Query("key") String key
     );
 
+    @GET("/api/activity/{link}")
+    Call<ModelDo> getLink(
+            @Query("link") String link
+    );
+
     @GET("/api/activity?price")
     Call<ModelDo> getActivityByPrice(
             @Query("price") double price
